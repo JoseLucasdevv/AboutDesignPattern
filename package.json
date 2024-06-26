@@ -1,0 +1,17 @@
+{
+  "name": "aboutDesignPattern",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "builder": "tsx watch src/Builder/Builder.ts",
+    "observer": "tsx watch src/Observer/Observer.ts"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tsx": "^4.15.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  }
+}
